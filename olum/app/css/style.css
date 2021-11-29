@@ -1,0 +1,245 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Mulish', sans-serif;
+    background-color: white;
+}
+
+body{
+    margin: 0;
+}
+
+.site-header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    display: block;
+}
+
+.container{
+    max-width: 1800px;
+    margin: 50px 160px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.nav-button li{
+    list-style: none;
+    font-weight: 800;
+}
+.nav-button ul{
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-image: linear-gradient(to right, #FFD0A8, #FF4FC0);
+}
+.nav-button a{
+    color: #050A3A;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0.5px;
+    padding: 10px 17px;
+    display: block;
+}
+.nav-button a:hover, .nav-button a:active{
+    background-color: #FFD0A8;
+    color: white;
+
+}
+
+.site-header .container{
+    justify-content: space-between;
+}
+
+/* Top Body */
+.body1{
+    background-color: white;
+    text-align: left;
+    padding-top: 100px;
+}
+.content{
+    display: flex;
+}
+
+h1{
+    font-size: 84px;
+    font-weight: 600;
+    line-height: 105.42px;
+    color: #050A3A;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: gray 0px 4px 4px;
+}
+
+
+.h1link{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25.1px;
+    letter-spacing: 1px;
+}
+
+.h1link1{
+    float: left;
+    padding-left: 170px;
+}
+
+.h1link2{
+    float: left;
+    padding-left: 50px;
+}
+.h1link a{
+    text-decoration: none;
+    color: #050A3A;
+}
+
+.h1link a:hover{
+    display: inline;
+    text-decoration: none;
+    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #FFD0A8, #FF4FC0);
+    background-repeat: no-repeat;
+    background-position: 120%, 122%, 0 130%;
+background-size: 100% 10px;
+}
+
+.mainimg{
+    float: right;
+    padding-top: 160px;
+    padding-bottom: 130px;
+}
+/* About us */
+
+h2{
+    font-size: 63px;
+    font-weight: 600;
+    line-height: 79px;
+    letter-spacing: 3px;
+    color: #050A3A;
+}
+
+.aboutushead{
+    padding-left: 22%;
+}
+
+.h2text{
+    padding-left: 22%;
+    padding-right: 25%;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #8a8a8a;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: gray 0px 4px 4px;
+}
+
+.aboutuscontent{
+    padding-top: 50px;
+}
+
+h3{
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 58.99px;
+    color: #050A3A;
+}
+
+.h3text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #8a8a8a;
+}
+
+.abouttext{
+    padding-right: 15%;
+}
+
+.aboutimg{
+    float: left;
+    padding-right: 185px;
+}
+
+/* Services */
+
+.h2head{
+    padding-left: 157px;
+    padding-top: 130px;
+    padding-bottom: 60px;
+
+}
+
+.partypic{
+    display: grid;
+    grid-template-columns: 480px 480px 480px 480px;  
+    grid-template-rows: 480px;
+    grid-gap: 0px;
+}
+
+.partypic > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.partypic > div > a{
+    text-decoration: none;
+    color: #050A3A;
+}
+
+.partypic > div > a:hover{
+    display: inline;
+    text-decoration: none;
+    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #FFD0A8, #FF4FC0);
+    background-repeat: no-repeat;
+    background-position: 120%, 122%, 0 130%;
+    background-size: 100% 10px;
+}
+
+.partners {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 160px;
+    padding-bottom: 150px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;  
+    grid-template-rows: 100px 100px;
+    grid-gap: 100px;
+}
+
+h4{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #8a8a8a;
+}
+
+footer{
+    background-color: #050A3A;
+    color: white;
+}
+
+.footerlogo{
+    padding-top: 80px;
+    padding-left: 160px;
+}
+
+.ceo{
+    float: right;
+}
+
+.manager{
+    float: right;
+}
